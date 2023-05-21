@@ -4,4 +4,11 @@
 }
 #meme {
   border: 10px solid black;
+  background-color: black;
+  color: white;
+  width: 500px;
+  margin: 5px auto;
+}
+#img-meme {
+  border: 2px solid white;
 }
