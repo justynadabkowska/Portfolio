@@ -12,3 +12,33 @@
 #img-meme {
   border: 2px solid white;
 }
+/***********************************************************************
+ *  Nav Bar
+ **********************************************************************/
+.main-nav {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  font-size: 0.7em;
+}
+
+@media only screen and (max-width: 600px) {
+  .main-nav {
+    font-size: 0.5em;
+    padding: 0;
+  }
+}
+
+.push {
+  margin-left: auto;
+}
+
+li {
+  padding: 20px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
