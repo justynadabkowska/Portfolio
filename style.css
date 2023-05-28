@@ -27,6 +27,17 @@
   width: 10em;
   float: left;
 }
+@media (max-width: 600px) {
+  .project {
+    height: 200px;
+    width: 200px;
+  }
+  .project img {
+    height: 8em;
+    width: 8em;
+    float: none;
+  }
+}
 /***********************************************************************
  *  Nav Bar
  **********************************************************************/
