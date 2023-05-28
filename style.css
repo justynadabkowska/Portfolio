@@ -16,7 +16,16 @@
   border: 2px solid black;
 }
 .project {
-  display: inline;
+  display: inline-block;
+  height: 200px;
+  width: 300px;
+  border: 10px dotted black;
+  margin: 50px;
+}
+.project img {
+  height: 10em;
+  width: 10em;
+  float: left;
 }
 /***********************************************************************
  *  Nav Bar
