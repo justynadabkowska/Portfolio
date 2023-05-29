@@ -20,21 +20,20 @@
   height: 200px;
   width: 300px;
   border: 10px dotted black;
-  margin: 50px;
+  margin: 60px;
 }
 .project img {
   height: 10em;
   width: 10em;
   float: left;
 }
-@media (max-width: 600px) {
+@media (max-width: 680px) {
   .project {
-    height: 200px;
+    height: 100%;
     width: 200px;
   }
   .project img {
-    height: 8em;
-    width: 8em;
+    object-fit: contain;
     float: none;
   }
 }
