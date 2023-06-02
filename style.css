@@ -18,6 +18,9 @@
   flex-wrap: wrap;
   justify-content: center;
 }
+.projects > h3 {
+  flex: 0 1 100%;
+}
 .project {
   height: 200px;
   width: 300px;
