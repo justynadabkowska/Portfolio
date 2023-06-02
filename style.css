@@ -14,20 +14,22 @@
 }
 .projects {
   border: 2px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .project {
-  display: inline-block;
   height: 200px;
   width: 300px;
   border: 10px dotted black;
-  margin: 60px;
+  margin: 20px;
 }
 .project img {
   height: 10em;
   width: 10em;
   float: left;
 }
-@media (max-width: 680px) {
+/* @media (max-width: 680px) {
   .project {
     height: 100%;
     width: 200px;
@@ -36,7 +38,7 @@
     object-fit: contain;
     float: none;
   }
-}
+} */
 /***********************************************************************
  *  Nav Bar
  **********************************************************************/
