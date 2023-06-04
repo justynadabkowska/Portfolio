@@ -19,7 +19,8 @@
   justify-content: center;
 }
 .projects > h3 {
-  flex: 0 1 100%;
+  /* flex: 0 1 100%; */
+  flex-basis: 100%;
 }
 .project {
   height: 200px;
